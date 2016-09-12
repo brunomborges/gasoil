@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style\index.css">
+    <title>Postos Cardozo</title>
+</head>
+<body>
+<!--Header Section-->
+<div class="header">
+    <div class="container">
+        <h1>Abastecedora Cardozo</h1>
+        <p>Abastecendo sua vida</p>
+    </div>
+</div>
+<!--Main Section-->
+<div class="main">
+        <div id="map" style="width:100% ;height:500px"></div>
+        <script>
+                function myMap() {
+                var mapCanvas = document.getElementById("map");
+  var mapOptions = {
+    center: new google.maps.LatLng(44.5, -78.546),
+    zoom: 8
+  }
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+}
+</script>
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAuetT0Gdcb9nnwXA3PHlDVcBnqj43ZBPg&callback=myMap"></script>
+    </div>
+    <!--Primeira seção-->
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img\gaspump.png"/>
+                </div>
+                <div class="col-md-6">
+                    <h1>Abastecimento</h1>
+                    <p>Share your moments with the people who matter to you most. With Shutterbugg, it's easy to share with the right people.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Segunda seção-->
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Conveniência</h1>
+                    <p>Share your moments with the people who matter to you most. With Shutterbugg, it's easy to share with the right people.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="img\food.png"/>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Terceira seção-->
+    <div class="section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="img\friends.png"/>
+                </div>
+                <div class="col-md-6">
+                    <h1>SEILA</h1>
+                    <p>Share your moments with the people who matter to you most. With Shutterbugg, it's easy to share with the right people.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Rodapé-->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <h3>Conheça nossos postos!</h3>
+                <div class="col-md-6">
+                    <img src="img\postinho.jpg">
+                    <ul>
+                        <li>Endereço: av. Bolsomito 850</li>
+                        <li>Telefone: 9999-9999</li>
+                        <li>Horario de Atendimento: 12:00h-22:00h</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <img src="img\postinho.jpg">
+                    <ul>
+                        <li>Endereço: av. BlackBlock 666</li>
+                        <li>Telefone: 9999-9999</li>
+                        <li>Horario de Atendimento: 12:00h-22:00h</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

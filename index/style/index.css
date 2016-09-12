@@ -1,0 +1,68 @@
+.container {
+   max-width: 928px;
+ }
+
+ .header{
+   height: 550px;
+   padding-top: 55px;
+   background-image: url(http://3.bp.blogspot.com/-z2rBDCZWut4/U_Iji9alWqI/AAAAAAAAA-k/_tWHG6ecPRg/s1600/placa%2Bde%2Bpre%C3%A7o%2Bposto%2Bde%2Bgasolina.jpg);
+   }
+
+   h1 {
+     font-size: 64px;
+     font-weight: 100;
+     margin-bottom: 20px;
+     color: red;
+   }
+
+  .header p{
+     font-size: 26px;
+     font-weight: 200;
+     margin-bottom: 40px;
+     color: red;
+  }
+
+ .section img {
+     width: 350px;
+     height: 485px;
+     border: solid 1px black;
+     margin: 10px;
+     text-align: center;
+ }
+
+ .section p{
+ 	font-size: 26px;
+ }
+
+ .section .row {
+   padding-top: 50px;
+   padding-bottom: 50px;
+   border-bottom: 1px solid #dbdbdb;
+ }
+
+ .footer{
+     border-top: 1px solid #dbdbdb;
+     background-color: #f3f3f3;
+ }
+
+ .footer h3{
+    font-size: 25px;
+    margin-bottom: 30px;
+    margin-left: 65px;
+ }
+ .footer img{
+    width:350px;
+    height:200px;
+    margin-left: 50px;
+ }
+
+ .footer ul {
+   list-style-type: none;
+   padding-left: 0;
+   margin-left: 50px;
+   margin-top: 15px;
+ }
+
+ .footer li {
+   color: #999;
+   font-weight: 600;
